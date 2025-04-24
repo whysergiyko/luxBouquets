@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left header-left">
+            <a href="" class="header-left__link header-link">Shop</a>
+            <a href="" class="header-left__link header-link">Contact</a>
+            <button type="button" class="header-left__icon icon-menu">
+              <span></span>
+            </button>
+          </div>
+          <div class="header-plug"></div>
+          <div class="header-plug"></div>
+          <div class="header__right header-right">
+            <a href="" class="header-right__link header-link">Sign in</a>
+            <button class="header-right__link header-link" data-cart>Cart</button>
+            <button class="header-right__basket">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                <path
+                  d="M2.3 19.5C1.8 19.5 1.375 19.325 1.025 18.975C0.675 18.625 0.5 18.2 0.5 17.7V6.3C0.5 5.8 0.675 5.375 1.025 5.025C1.375 4.675 1.8 4.5 2.3 4.5H4.25V4.25C4.25 3.21667 4.61667 2.33333 5.35 1.6C6.08333 0.866667 6.96667 0.5 8 0.5C9.03333 0.5 9.91667 0.866667 10.65 1.6C11.3833 2.33333 11.75 3.21667 11.75 4.25V4.5H13.7C14.2 4.5 14.625 4.675 14.975 5.025C15.325 5.375 15.5 5.8 15.5 6.3V17.7C15.5 18.2 15.325 18.625 14.975 18.975C14.625 19.325 14.2 19.5 13.7 19.5H2.3ZM2.3 18H13.7C13.7667 18 13.8333 17.9667 13.9 17.9C13.9667 17.8333 14 17.7667 14 17.7V6.3C14 6.23333 13.9667 6.16667 13.9 6.1C13.8333 6.03333 13.7667 6 13.7 6H11.75V8.25C11.75 8.46667 11.6793 8.64567 11.538 8.787C11.396 8.929 11.2167 9 11 9C10.7833 9 10.6043 8.929 10.463 8.787C10.321 8.64567 10.25 8.46667 10.25 8.25V6H5.75V8.25C5.75 8.46667 5.67933 8.64567 5.538 8.787C5.396 8.929 5.21667 9 5 9C4.78333 9 4.60433 8.929 4.463 8.787C4.321 8.64567 4.25 8.46667 4.25 8.25V6H2.3C2.23333 6 2.16667 6.03333 2.1 6.1C2.03333 6.16667 2 6.23333 2 6.3V17.7C2 17.7667 2.03333 17.8333 2.1 17.9C2.16667 17.9667 2.23333 18 2.3 18ZM5.75 4.5H10.25V4.25C10.25 3.61667 10.0333 3.08333 9.6 2.65C9.16667 2.21667 8.63333 2 8 2C7.36667 2 6.83333 2.21667 6.4 2.65C5.96667 3.08333 5.75 3.61667 5.75 4.25V4.5ZM2 18V6V18Z"
+                  fill="#121212"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="header__hide header-hide">
+          <div class="header-hide__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link menu__link--first">Sign In</a>
+                </li>
+                <li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Servise</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                <li class="menu__item"><a href="" class="menu__link">About us</a></li>
+              </ul>
+              <div class="menu__body-buttons">
+                <a href="" class="menu__body-link">Shipping & returns</a>
+                <a href="" class="menu__body-link">Terms & conditions</a>
+                <a href="" class="menu__body-link">Privacy policy</a>
+              </div>
+              <div class="menu__body-social">
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/instagram.svg" alt="instagram logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/pinterest.svg" alt="pinterest logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/facebook.svg" alt="facebook logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/twitter.svg" alt="twitter logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/telegram.svg" alt="telegram logo" />
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="cart">
+        <div class="cart__block">
+          <div class="cart__top cart-top">
+            <h2 class="cart-top__title">Shopping Cart</h2>
+            <button class="cart-top__close"><span></span></button>
+          </div>
+          <div class="cart__wrapper"></div>
+          <div class="cart__subtotal cart-subtotal">
+            <h2 class="cart-subtotal__title">Subtotal</h2>
+            <p class="cart-subtotal__total">0</p>
+          </div>
+          <div class="cart__message">
+            <textarea name="" id="" class="cart__messageText" placeholder="Gift Message"></textarea>
+          </div>
+          <div class="cart__text">
+            <p>Shipping & taxes calculated at checkout Free standard shipping within Kyiv</p>
+          </div>
+          <button class="cart__checkOut">check out</button>
+        </div>
+      </section>
+
+      <main class="page">
+        <section class="fresh">
+          <div class="fresh__inner inner">
+            <div class="fresh__left fresh-left">
+              <div class="fresh-left__img">
+                <img src="img/fresh/1.jpg" alt="" />
+                <p>Fresh Flowers</p>
+              </div>
+            </div>
+            <div class="fresh__right fresh-right">
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item2.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Dawn's Delight</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item2.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Dawn's Delight</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item3.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Pink Elegance</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item4.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Rustic Charm</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item5.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Autumn Symphony</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item6.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Rosy Delight</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item2.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Dawn's Delight</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item2.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Blue Harmony</h5>
+                  <p class="fresh-right-item__price">price 55$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item4.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Mystical Majesty</h5>
+                  <p class="fresh-right-item__price">price 80$</p>
+                </div>
+              </a>
+              <a href="product.html" class="fresh-right__item fresh-right-item">
+                <div class="fresh-right-item__img">
+                  <img src="img/fresh/right-item6.jpg" alt="" />
+                  <h5 class="fresh-right-item__title">Blazing Blossoms</h5>
+                  <p class="fresh-right-item__price">price 70$</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__item footer-item">
+            <div class="footer-item__text">
+              <p>
+                Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days
+                before. No spam or sharing your address
+              </p>
+            </div>
+            <form action="" class="footer-item__form">
+              <input type="text" class="footer-item__input" placeholder="Your Email" />
+              <button class="footer-item__button" type="submit">Remind</button>
+            </form>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">Contact Us</h2>
+            <div class="footer-item__address item-address">
+              <h5 class="item-address__title item-title">Address</h5>
+              <div class="item-address__text">
+                <p>15/4 Khreshchatyk Street, Kyiv</p>
+              </div>
+            </div>
+            <div class="footer-item__number item-number">
+              <h5 class="item-number__title item-title">Phone</h5>
+              <div class="item-number__text">
+                <p><a href="tel:380980099777">+380980099777</a></p>
+              </div>
+            </div>
+            <div class="footer-item__general item-general">
+              <h5 class="item-general__title item-title">General Enquiry:</h5>
+              <div class="item-general__text">
+                <p>
+                  <a href="email:Kiev.Florist.Studio@gmail.com">Kiev.Florist.Studio@gmail.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="footer-item__follow item-follow">
+              <h2 class="footer-item__title">Follow Us</h2>
+              <div class="item-follow__list">
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/instagram.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/pinterest.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/facebook.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/twitter.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/telegram.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">Shop</h2>
+            <div class="footer-item__block">
+              <a href="index.html" class="footer-item__link">All Products</a>
+              <a href="" class="footer-item__link">Fresh Flowers</a>
+              <a href="" class="footer-item__link">Dried Flowers</a>
+              <a href="" class="footer-item__link">Live Plants</a>
+              <a href="" class="footer-item__link">Designer Vases</a>
+              <a href="" class="footer-item__link">Aroma Candles</a>
+              <a href="" class="footer-item__link">Freshener Diffuser</a>
+            </div>
+            <h2 class="footer-item__title">Service</h2>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Flower Subcription</a>
+              <a href="" class="footer-item__link">Wedding & Event Decor</a>
+            </div>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">About Us</h2>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Our story</a>
+              <a href="" class="footer-item__link">Blog</a>
+            </div>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Shipping & returns</a>
+              <a href="" class="footer-item__link">Terms & conditions</a>
+              <a href="" class="footer-item__link">Privacy policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>

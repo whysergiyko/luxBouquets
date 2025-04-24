@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left header-left">
+            <a href="" class="header-left__link header-link">Shop</a>
+            <a href="" class="header-left__link header-link">Contact</a>
+            <button type="button" class="header-left__icon icon-menu">
+              <span></span>
+            </button>
+          </div>
+          <div class="header-plug"></div>
+          <div class="header-plug"></div>
+          <div class="header__right header-right">
+            <a href="" class="header-right__link header-link">Sign in</a>
+            <button class="header-right__link header-link" data-cart>Cart</button>
+            <button class="header-right__basket">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                <path
+                  d="M2.3 19.5C1.8 19.5 1.375 19.325 1.025 18.975C0.675 18.625 0.5 18.2 0.5 17.7V6.3C0.5 5.8 0.675 5.375 1.025 5.025C1.375 4.675 1.8 4.5 2.3 4.5H4.25V4.25C4.25 3.21667 4.61667 2.33333 5.35 1.6C6.08333 0.866667 6.96667 0.5 8 0.5C9.03333 0.5 9.91667 0.866667 10.65 1.6C11.3833 2.33333 11.75 3.21667 11.75 4.25V4.5H13.7C14.2 4.5 14.625 4.675 14.975 5.025C15.325 5.375 15.5 5.8 15.5 6.3V17.7C15.5 18.2 15.325 18.625 14.975 18.975C14.625 19.325 14.2 19.5 13.7 19.5H2.3ZM2.3 18H13.7C13.7667 18 13.8333 17.9667 13.9 17.9C13.9667 17.8333 14 17.7667 14 17.7V6.3C14 6.23333 13.9667 6.16667 13.9 6.1C13.8333 6.03333 13.7667 6 13.7 6H11.75V8.25C11.75 8.46667 11.6793 8.64567 11.538 8.787C11.396 8.929 11.2167 9 11 9C10.7833 9 10.6043 8.929 10.463 8.787C10.321 8.64567 10.25 8.46667 10.25 8.25V6H5.75V8.25C5.75 8.46667 5.67933 8.64567 5.538 8.787C5.396 8.929 5.21667 9 5 9C4.78333 9 4.60433 8.929 4.463 8.787C4.321 8.64567 4.25 8.46667 4.25 8.25V6H2.3C2.23333 6 2.16667 6.03333 2.1 6.1C2.03333 6.16667 2 6.23333 2 6.3V17.7C2 17.7667 2.03333 17.8333 2.1 17.9C2.16667 17.9667 2.23333 18 2.3 18ZM5.75 4.5H10.25V4.25C10.25 3.61667 10.0333 3.08333 9.6 2.65C9.16667 2.21667 8.63333 2 8 2C7.36667 2 6.83333 2.21667 6.4 2.65C5.96667 3.08333 5.75 3.61667 5.75 4.25V4.5ZM2 18V6V18Z"
+                  fill="#121212"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="header__hide header-hide">
+          <div class="header-hide__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link menu__link--first">Sign In</a>
+                </li>
+                <li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Servise</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                <li class="menu__item"><a href="" class="menu__link">About us</a></li>
+              </ul>
+              <div class="menu__body-buttons">
+                <a href="" class="menu__body-link">Shipping & returns</a>
+                <a href="" class="menu__body-link">Terms & conditions</a>
+                <a href="" class="menu__body-link">Privacy policy</a>
+              </div>
+              <div class="menu__body-social">
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/instagram.svg" alt="instagram logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/pinterest.svg" alt="pinterest logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/facebook.svg" alt="facebook logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/twitter.svg" alt="twitter logo" />
+                </a>
+                <a href="" class="menu__body-socialLink">
+                  <img src="img/icons/telegram.svg" alt="telegram logo" />
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="cart">
+        <div class="cart__block">
+          <div class="cart__top cart-top">
+            <h2 class="cart-top__title">Shopping Cart</h2>
+            <button class="cart-top__close"><span></span></button>
+          </div>
+          <div class="cart__wrapper"></div>
+          <div class="cart__subtotal cart-subtotal">
+            <h2 class="cart-subtotal__title">Subtotal</h2>
+            <p class="cart-subtotal__total">0</p>
+          </div>
+          <div class="cart__message">
+            <textarea name="" id="" class="cart__messageText" placeholder="Gift Message"></textarea>
+          </div>
+          <div class="cart__text">
+            <p>Shipping & taxes calculated at checkout Free standard shipping within Kyiv</p>
+          </div>
+          <button class="cart__checkOut">check out</button>
+        </div>
+      </section>
+
+      <main class="page">
+        <section class="hero wow fadeInLeft">
+          <div class="hero__inner inner">
+            <div class="hero__left hero-left">
+              <h1 class="hero-left__title primary--title">Kyiv LuxeBouquets</h1>
+              <div class="hero-left__text">
+                <p>Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread Joy with Our Online Flower Delivery Service</p>
+              </div>
+              <div class="hero-left__item left-item">
+                <div class="left-item__img">
+                  <img src="img/hero/left.jpg" alt="" />
+                </div>
+                <div class="left-item__text">
+                  <p>
+                    Experience the joy of giving with our modern floral studio. Order online and send fresh flowers, plants and gifts today.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__right hero-right">
+              <div class="hero-right__inner">
+                <a href="category.html" class="hero-right__link hero-right__link--second primary-subtitle">
+                  <p>Fresh Flowers</p>
+                  <span class="hero-right__link--span"
+                    >Shop now
+                    <span class="hero-right__link--arrow hero-right__link--arrow--right"> </span>
+                  </span>
+                </a>
+                <div class="hero-right__img">
+                  <img src="img/hero/1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero-right__inner hero-right__inner--second">
+                <a href="category.html" class="hero-right__link primary-subtitle">
+                  <p>Fresh Flowers</p>
+                  <span class="hero-right__link--span"
+                    >Shop now <span class="hero-right__link--arrow hero-right__link--arrow--left"> </span
+                  ></span>
+                </a>
+                <div class="hero-right__img hero-right__link--second">
+                  <img src="img/hero/2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero-right__inner">
+                <a href="category.html" class="hero-right__link hero-right__link--second primary-subtitle">
+                  <p>Fresh Flowers</p>
+                  <span class="hero-right__link--span"
+                    >Shop now <span class="hero-right__link--arrow hero-right__link--arrow--right"> </span
+                  ></span>
+                </a>
+                <div class="hero-right__img">
+                  <img src="img/hero/3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero-right__inner hero-right__inner--second">
+                <a href="category.html" class="hero-right__link primary-subtitle">
+                  <p>Fresh Flowers</p>
+                  <span class="hero-right__link--span"
+                    >Shop now <span class="hero-right__link--arrow hero-right__link--arrow--left"> </span
+                  ></span>
+                </a>
+                <div class="hero-right__img hero-right__link--second">
+                  <img src="img/hero/4.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero-right__inner">
+                <a href="category.html" class="hero-right__link hero-right__link--second hero-right__link--noBorder primary-subtitle">
+                  <p>Fresh Flowers</p>
+                  <span class="hero-right__link--span"
+                    >Shop now <span class="hero-right__link--arrow hero-right__link--arrow--right"> </span
+                  ></span>
+                </a>
+                <div class="hero-right__img hero-right__img--noBorder">
+                  <img src="img/hero/5.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__inner inner">
+            <div class="about__left">
+              <h2 class="about__title primary--title">About us</h2>
+            </div>
+            <div class="about__right about-right">
+              <h5 class="about-right__smallTitle">our story</h5>
+              <h2 class="about-right__title primary-subtitle">Kyiv LuxeBouquets</h2>
+              <div class="about-right__text">
+                <p>
+                  We are a modern local floral studio, which specializes in the design and delivery of unique bouquets. We have the best
+                  florists who carefully select each look, our studio cooperates directly with farms for growing different flowers, so we
+                  always have fresh flowers, which are collected by our florists in exquisite bouquets. We have a collection of fresh
+                  bouquets, collections of dried bouquets, house plants, as well as fragrant candles from luxury brands to create the
+                  perfect atmosphere. Make someone's day amazing by sending flowers, plants and gifts the same or next day. Ordering flowers
+                  online has never been easier.
+                </p>
+              </div>
+              <a href="" class="about-right__link primary--button"> Learn more </a>
+            </div>
+          </div>
+        </section>
+        <section class="choose">
+          <div class="choose__inner inner">
+            <div class="choose__left">
+              <h2 class="choose__title primary--title">Why choose us?</h2>
+            </div>
+            <div class="choose__right choose-right">
+              <div class="choose-right__item right-item">
+                <h2 class="right-item__title primary-subtitle">Stylish bouquets by florists</h2>
+                <div class="right-item__text">
+                  <p>
+                    At our floral studio, our professional florists craft the most elegant and stylish bouquets using only the freshest and
+                    highest quality materials available. We stay up-to-date with the latest floral design trends and offer unique
+                    arrangements that are sure to impress. Let us brighten up your day with our stunning bouquets and same-day delivery
+                    service.
+                  </p>
+                </div>
+              </div>
+              <div class="choose-right__item right-item">
+                <h2 class="right-item__title primary-subtitle">On-time delivery</h2>
+                <div class="right-item__text">
+                  <p>
+                    Never miss a moment with our on-time flower delivery service. Our couriers will deliver your bouquet personally, without
+                    boxes, to ensure it arrives in perfect condition. Trust us to deliver your thoughtful gift reliably.
+                  </p>
+                </div>
+              </div>
+              <div class="choose-right__item right-item">
+                <h2 class="right-item__title primary-subtitle">Safe payment</h2>
+                <div class="right-item__text">
+                  <p>
+                    You can feel secure when placing an order with us, as we use industry-standard security measures to protect your payment
+                    information. Your transaction will be safe and hassle-free, so you can shop with confidence.
+                  </p>
+                </div>
+              </div>
+              <div class="choose-right__item right-item">
+                <h2 class="right-item__title primary-subtitle">Subscription by your needs</h2>
+                <div class="right-item__text">
+                  <p>
+                    With our subscription service tailored to your specific needs, you can enjoy the convenience of having beautiful
+                    bouquets delivered straight to your door at regular intervals. Our flexible service is perfect for busy individuals or
+                    those who want to ensure they always have fresh flowers on hand. You'll save time and money with this hassle-free
+                    solution to your floral needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="contact__inner inner">
+            <div class="contact__left contact-left">
+              <div class="contact-left__top contact-left-top">
+                <h2 class="contact-left-top__title">To Contact Us</h2>
+                <div class="contact-left-top__text">
+                  <p>We will call you back</p>
+                </div>
+                <form action="" class="contact-left-top__form">
+                  <input type="text" class="contact-left-top__input" placeholder="+380 XX XXX XX XX" />
+                  <button class="contact-left-top__button">book a call</button>
+                </form>
+              </div>
+              <div class="contact-left__bot contact-left-bot">
+                <div class="contact-left-bot__item">
+                  <h3 class="contact-left-bot__title">Phone</h3>
+                  <div class="contact-left-bot__links">
+                    <a href="" class="contact-left-bot__link contact-left-bot__link--call">+380980099777</a>
+                    <a href="" class="contact-left-bot__link contact-left-bot__link--call">+380980099777</a>
+                  </div>
+                </div>
+                <div class="contact-left-bot__item">
+                  <h3 class="contact-left-bot__title">Address</h3>
+                  <div class="contact-left-bot__links">
+                    <a href="" class="contact-left-bot__link">opening hours: 8 to 11 p.m.</a>
+                    <a href="" class="contact-left-bot__link contact-left-bot__link--map">15/4 Khreshchatyk Street, Kyiv </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact__right contact-right">
+              <div class="contact-right__img">
+                <img src="img/contact/1.jpg" alt="" />
+              </div>
+              <div class="contact-right__bottom contact-right-bottom">
+                <h3 class="contact-right-bottom__title">Follow us</h3>
+                <div class="contact-right-bottom__links">
+                  <a href="" class="contact-right-bottom__link"><img src="img/icons/instagram.svg" alt="" /></a>
+                  <a href="" class="contact-right-bottom__link"><img src="img/icons/pinterest.svg" alt="" /></a>
+                  <a href="" class="contact-right-bottom__link"><img src="img/icons/facebook.svg" alt="" /></a>
+                  <a href="" class="contact-right-bottom__link"><img src="img/icons/twitter.svg" alt="" /></a>
+                  <a href="" class="contact-right-bottom__link"><img src="img/icons/telegram.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service">
+          <h2 class="service__title primary--title">Our Service</h2>
+          <div class="service__inner inner">
+            <div class="service__left">
+              <div class="service__img">
+                <img src="img/service/1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="service__right service-right">
+              <h5 class="service-right__subtitle">service</h5>
+              <h2 class="service-right__title">Flower Subcriptions</h2>
+              <div class="service-right__text">
+                <p>
+                  Experience the convenience and savings of regular flower deliveries with our flexible subscription service - up to 30%
+                  more profitable than one-time purchases.
+                </p>
+              </div>
+              <a href="" class="service-right__link primary--button"> Subscribe Now </a>
+            </div>
+          </div>
+        </section>
+        <section class="wedding">
+          <div class="wedding__inner">
+            <div class="wedding__item wedding-item">
+              <h5 class="wedding-item__subtitle">service</h5>
+              <h2 class="wedding-item__title">Wedding & Event Decor</h2>
+              <div class="wedding-item__text">
+                <p>
+                  Let our team of expert florists and designers create stunning, on-trend floral décor for your special day. Trust us to
+                  bring your vision to life.
+                </p>
+              </div>
+              <a href="" class="wedding-item__button primary--button">Inquire Now</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__item footer-item">
+            <div class="footer-item__text">
+              <p>
+                Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days
+                before. No spam or sharing your address
+              </p>
+            </div>
+            <form action="" class="footer-item__form">
+              <input type="text" class="footer-item__input" placeholder="Your Email" />
+              <button class="footer-item__button" type="submit">Remind</button>
+            </form>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">Contact Us</h2>
+            <div class="footer-item__address item-address">
+              <h5 class="item-address__title item-title">Address</h5>
+              <div class="item-address__text">
+                <p>15/4 Khreshchatyk Street, Kyiv</p>
+              </div>
+            </div>
+            <div class="footer-item__number item-number">
+              <h5 class="item-number__title item-title">Phone</h5>
+              <div class="item-number__text">
+                <p><a href="tel:380980099777">+380980099777</a></p>
+              </div>
+            </div>
+            <div class="footer-item__general item-general">
+              <h5 class="item-general__title item-title">General Enquiry:</h5>
+              <div class="item-general__text">
+                <p>
+                  <a href="email:Kiev.Florist.Studio@gmail.com">Kiev.Florist.Studio@gmail.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="footer-item__follow item-follow">
+              <h2 class="footer-item__title">Follow Us</h2>
+              <div class="item-follow__list">
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/instagram.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/pinterest.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/facebook.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/twitter.svg" alt="" />
+                </a>
+                <a href="" class="item-follow__link">
+                  <img src="img/icons/telegram.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">Shop</h2>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">All Products</a>
+              <a href="" class="footer-item__link">Fresh Flowers</a>
+              <a href="" class="footer-item__link">Dried Flowers</a>
+              <a href="" class="footer-item__link">Live Plants</a>
+              <a href="" class="footer-item__link">Designer Vases</a>
+              <a href="" class="footer-item__link">Aroma Candles</a>
+              <a href="" class="footer-item__link">Freshener Diffuser</a>
+            </div>
+            <h2 class="footer-item__title">Service</h2>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Flower Subcription</a>
+              <a href="" class="footer-item__link">Wedding & Event Decor</a>
+            </div>
+          </div>
+          <div class="footer__item footer-item">
+            <h2 class="footer-item__title">About Us</h2>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Our story</a>
+              <a href="" class="footer-item__link">Blog</a>
+            </div>
+            <div class="footer-item__block">
+              <a href="" class="footer-item__link">Shipping & returns</a>
+              <a href="" class="footer-item__link">Terms & conditions</a>
+              <a href="" class="footer-item__link">Privacy policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
